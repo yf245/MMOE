@@ -11,7 +11,7 @@ This repository contains the code and datasets used in our paper **"Inducing Mon
 	- Open your terminal and navigate to the local folder where you want the project to be in:  `cd /path/to/your/folder`
 	- Run the clone command: `git clone https://github.com/yf245/MMOE.git`
 	- Change into the cloned directory: `cd MMOE`
-	- Create a virtual environment: `python3.9.7 -m venv <venv_name>`
+	- Create a virtual environment: `python3.9 -m venv <venv_name>`
 	- Activate the virtual environment: `source <venv_name>/bin/activate` if on macOS/Linux
 	- Install packages in the virtual environment: `pip install -r requirements.txt`
 	- Open JupyterLab: `jupyter lab` 
@@ -20,7 +20,9 @@ This repository contains the code and datasets used in our paper **"Inducing Mon
 
 ## Usage
 
-To reproduce the figures and the tables in our paper, please run one of the Jupyter Notebooks depending on the model of interest to you. More instructions will be available in the Notebooks to guide you further.
+To reproduce the figures and the tables in our paper, please run one of the Jupyter Notebooks depending on the model of interest to you. 
+
+More instructions will be available in the Notebooks to guide you further.
 
 ## File Structure
 
