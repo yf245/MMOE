@@ -6,17 +6,17 @@ This repository contains the code and datasets used in our paper **"Inducing Mon
 
 ## Getting Started
 
-- **Requirements**: Python 3.9.7 
+- **Requirements**: Install Conda (either Miniconda or Anaconda).
 - **Installation**: 
 	- Open your terminal and navigate to the local folder where you want the project to be in:  `cd /path/to/your/folder`
 	- Run the clone command: `git clone https://github.com/yf245/MMOE.git`
 	- Change into the cloned directory: `cd MMOE`
-	- Create a virtual environment: `python3.9 -m venv <venv_name>`
-	- Activate the virtual environment: `source <venv_name>/bin/activate` if on macOS/Linux
-	- Install packages in the virtual environment: `pip install -r requirements.txt`
+	- Create a virtual environment: `conda create -name <venv_name> python=3.9.7`
+	- Activate the virtual environment: `conda activate <venv_name>`
+	- Install packages in the virtual environment: `conda install --file requirements.txt`
 	- Open JupyterLab: `jupyter lab` 
 	- Please refer to the next section for usage.
-	- When you are done, deactivate the virtual environment: `deactivate`
+	- When you are done, deactivate the virtual environment: `conda deactivate`
 
 ## Usage
 
